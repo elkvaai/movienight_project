@@ -1,0 +1,105 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, sans-serif;
+
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    font-size: 30px;
+    color: #820808;
+    margin-left: 35px;
+}
+body {
+    background-image: url("https://yastatic.net/s3/kinopoisk-frontend/frontend-www/release/_next/static/images/cover-44dd0c62ce4c77e7.jpeg");
+    background-size: 100%;
+}
+
+.wrapper {
+    width: 430px;
+    height: 700px;
+    padding: 2rem 0 1rem 0;
+    margin: 80px auto;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin: 30px 0px 40px 0px;
+}
+
+p {
+    margin-bottom: 1.7rem;
+}
+
+form input {
+    width: 70%;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: #dfe9f5;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+
+button {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 50px;
+    background: rgb(119, 8, 8);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(122, 30, 30, 0.767);
+}
+
+
+
+
+.not-member {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+}
+
+.not-member a {
+    color: rgb(98, 15, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.error {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 12px;
+    display: block;
+    padding: 7px;
+    margin: 0px 50px;
+    display: none;
+  }
+    
+  input:invalid:not(:placeholder-shown) + .error {
+    display: block;
+  }
